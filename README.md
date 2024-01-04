@@ -22,7 +22,7 @@ It represents a model of e.g. how fast a rabbits reproduce and other processes.
 The basic function is pretty simple 
 ```cpp
 //  reproductionRate R = 0.0 - 4.0
-//  in == 0.0 - 1.0
+//  in == 0.0 - 1.0  (think percentage of some maximum population)
 out = reproductionRate * in * (1 - in);
 ```
 
