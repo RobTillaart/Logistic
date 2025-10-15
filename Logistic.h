@@ -73,7 +73,7 @@ public:
 
   double getPrevious()
   {
-    return _previous();
+    return _previous;
   }
 
   bool isStable(double epsilon = 0.0)
